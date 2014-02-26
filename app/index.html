@@ -1,0 +1,74 @@
+<!doctype html>
+<html ng-app="dresskart">
+  <head>
+    <title>Online Shopping Application</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <header>
+        <div class="wrapper">
+            <h1 class="logo">
+                <a href="index.html">
+                    DressKart       
+                </a>
+            </h1>
+        </div>
+    </header>
+    <section class="wrapper innerWrap">
+        <div id="topNav">
+            <ul ng-controller="navCtrl">
+                <li ng-class="navClass('home')">
+                    <a href="#/home">
+                       <span>Home</span> 
+                    </a>
+                </li>
+                <li ng-class="navClass('men')">
+                    <a href="#/men">
+                       <span>Mens</span> 
+                    </a>
+                </li>
+                <li ng-class="navClass('women')">
+                    <a href="#/women">
+                       <span>Women</span> 
+                    </a>
+                </li>
+                <li ng-class="navClass('kids')">
+                    <a href="#/kids">
+                       <span>Kids</span> 
+                    </a>
+                </li>
+                <li ng-class="navClass('cart')">
+                    <a href="#/cart">
+                       <span>Cart</span> 
+                    </a>
+                </li>          
+            </ul>
+        </div>
+        <div class="innerContainer">
+            <div ng-view></div>
+        </div>
+        <div class="push"></div>
+    </section>
+    <footer>
+        <section class="wrapper">
+            <div class="footerRight">
+                <p>Keep in Touch</p>
+                <ul>
+                    <li><a href="www.facebook.com"><span class="icon-facebook"></span></a></li>
+                    <li><a href="www.twitter.com"><span class="icon-tumblr"></span></a></li>
+                    <li><a href="www.plus.google.com"><span class="icon-googleplus"></span></a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <!-- jQuery, Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" ></script>
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js" type="text/javascript"></script>
+    <script src="http://code.angularjs.org/1.2.9/angular-route.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.9/angular-resource.min.js"></script>
+    <!-- AngularStore app -->
+    <script src="scripts/app.js" type="text/javascript"></script>
+    <script src="scripts/controller.js" type="text/javascript"></script>
+    <script src="scripts/services.js" type="text/javascript"></script>
+  </body>
+</html>

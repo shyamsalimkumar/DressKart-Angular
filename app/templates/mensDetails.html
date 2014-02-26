@@ -1,0 +1,19 @@
+<div class="pdtDetails">
+	<div class="pdtDetailsLeft">
+		<img ng-src="{{mens.imageUrl}}">
+	</div>
+	<div class="pdtDetailsRight">
+		<h1>{{mens.desc}}</h1>
+		<p class="price">Price: Rs.{{mens.price}}</p>
+		<p> Inclusive of taxes<br/>
+			+ Delivery charge [?]<br/>
+			Seller: WS Retail<br/>
+			Free Home Delivery if total order amount for WS Retail is Rs. 500 or above. [?]<br/>
+		</p>
+		<div class="cart" ng-controller="cartCtrl">
+            <button class="" ng-click="addCart(mens.imageUrl,mens.desc,mens.price,1)"> add to cart </button>
+            <a href="#/cart"> show cart </button>
+        </div>
+	</div>
+</div>
+        

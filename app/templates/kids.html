@@ -1,0 +1,16 @@
+<p class="search">
+    Search: <input ng-model="search">
+</p>
+<nav class="items">
+	<ul>
+		<li ng-repeat="dress in kids | filter:search">
+			<span>
+	        	<a href="#/kids/{{dress.id}}" class="thumb">
+	        		<img ng-src="{{dress.imageUrl}}">
+	        		<h1>{{dress.desc}}</h1>
+	        		<p>{{dress.price}}</p>
+	        	</a>
+	        </span>
+	    </li>
+	</ul>
+</nav>
