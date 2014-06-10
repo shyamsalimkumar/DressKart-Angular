@@ -1,0 +1,39 @@
+{
+    "data": [ {
+        "id": 12,
+        "name": "kids-shirt",
+        "imageUrl": "images/kidsShirt.jpeg",
+        "title": "Kids Shirt",
+        "desc": "United Colors of Benetton Boy's Checkered Shirt",
+        "price": 898
+    }, {
+        "id": 13,
+        "name": "kids-jeans",
+        "imageUrl": "images/kidsJeans.jpeg",
+        "title": "Kids Jeans",
+        "desc": "Levi's Jeans",
+        "price": 1799
+    }, {
+        "id": 14,
+        "name": "baby-girl-dress",
+        "imageUrl": "images/kidsfrock.jpeg",
+        "title": "Baby Girl's Dress",
+        "desc": "Bonnie Jean Baby Girl's Dress",
+        "price": 2518
+    }, {
+        "id": 15,
+        "name": "baby-girl-dress",
+        "imageUrl": "images/girlfrock.jpeg",
+        "title": "Baby Girl's Dress",
+        "desc": "Bonnie Jean Girl's Layered Dress",
+        "price": 2218
+    }, {
+        "id": 16,
+        "name": "baby-boy-sweatshirt",
+        "imageUrl": "images/kidsred.jpeg",
+        "title": "Baby Boy Sweatshirt",
+        "desc": "FS Mini Klub Full Sleeve Printed Baby Boy's Baby Boy Sweatshirt",
+        "price": 500
+    } ],
+    "status": "OK"
+}

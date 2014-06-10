@@ -1,0 +1,46 @@
+{
+    "data": [ {
+        "id": 0,
+        "name": "mens-formal-shirt",
+        "imageUrl": "images/MenFormal.jpeg",
+        "title": "Mens Formal Shirt",
+        "desc": "Excalibur Men's Striped Formal Shirt",
+        "price": 799
+    }, {
+        "id": 1,
+        "name": "mens-casual-shirt",
+        "imageUrl": "images/MensShirt.jpeg",
+        "title": "Mens Casual Shirt",
+        "desc": "Azziano Men's Checkered Formal Shirt",
+        "price": 999
+    }, {
+        "id": 2,
+        "name": "mens-tshirt",
+        "imageUrl": "images/MensT.jpeg",
+        "title": "Mens T-Shirt",
+        "desc": "TSX Sportsman Solid Men's Polo Neck T-Shirt",
+        "price": 299
+    }, {
+        "id": 3,
+        "name": "mens-tshirt",
+        "imageUrl": "images/MensTS.jpeg",
+        "title": "Mens T-Shirt",
+        "desc": "Chromozome Solid Men's V-neck T-Shirt",
+        "price": 349
+    }, {
+        "id": 4,
+        "name": "mens-jeans",
+        "imageUrl": "images/MensJeans.jpeg",
+        "title": "Mens Jeans",
+        "desc": "High Star Slim Fit Men's Jeans",
+        "price": 799
+    }, {
+        "id": 5,
+        "name": "mens-formal-shirt",
+        "imageUrl": "images/MenFormal.jpeg",
+        "title": "Mens Formal Shirt",
+        "desc": "Excalibur Men's Striped Formal Shirt",
+        "price": 799
+    } ],
+    "status": "OK"
+}

@@ -1,0 +1,123 @@
+{
+	"data": [ {
+		"id": 0,
+		"name": "mens-formal-shirt",
+		"imageUrl": "images/MenFormal.jpeg",
+		"title": "Mens Formal Shirt",
+		"desc": "Excalibur Men's Striped Formal Shirt",
+		"price": 799
+	}, {
+		"id": 1,
+		"name": "mens-casual-shirt",
+		"imageUrl": "images/MensShirt.jpeg",
+		"title": "Mens Casual Shirt",
+		"desc": "Azziano Men's Checkered Formal Shirt",
+		"price": 999
+	}, {
+		"id": 2,
+		"name": "mens-tshirt",
+		"imageUrl": "images/MensT.jpeg",
+		"title": "Mens T-Shirt",
+		"desc": "TSX Sportsman Solid Men's Polo Neck T-Shirt",
+		"price": 299
+	}, {
+		"id": 3,
+		"name": "mens-tshirt",
+		"imageUrl": "images/MensTS.jpeg",
+		"title": "Mens T-Shirt",
+		"desc": "Chromozome Solid Men's V-neck T-Shirt",
+		"price": 349
+	}, {
+		"id": 4,
+		"name": "mens-jeans",
+		"imageUrl": "images/MensJeans.jpeg",
+		"title": "Mens Jeans",
+		"desc": "High Star Slim Fit Men's Jeans",
+		"price": 799
+	}, {
+		"id": 5,
+		"name": "mens-formal-shirt",
+		"imageUrl": "images/MenFormal.jpeg",
+		"title": "Mens Formal Shirt",
+		"desc": "Excalibur Men's Striped Formal Shirt",
+		"price": 799
+	}, {
+		"id": 6,
+		"name": "womens-maxi-dress",
+		"imageUrl": "images/femella.jpeg",
+		"title": "Women's Maxi Dress",
+		"desc": "Femella Women's Maxi Dress",
+		"price": 1290
+	}, {
+		"id": 7,
+		"name": "womens-maxi-dress",
+		"imageUrl": "images/maxi.jpeg",
+		"title": "Women's Maxi Dress",
+		"desc": "Calvin Klein Women's Maxi Dress",
+		"price": 3000
+	}, {
+		"id": 8,
+		"name": "womens-saree",
+		"imageUrl": "images/sari.jpeg",
+		"title": "Women's Saree",
+		"desc": "Kalki Floral Print Embroidered Embellished...",
+		"price": 36260
+	}, {
+		"id": 9,
+		"name": "womens-saree",
+		"imageUrl": "images/wSari.jpeg",
+		"title": "Women's Saree",
+		"desc": "Samyakk Kanjivaram Floral Print Embellishe...",
+		"price": 38390
+	}, {
+		"id": 10,
+		"name": "womens-salwar",
+		"imageUrl": "images/wSalwar.jpeg",
+		"title": "Women's Salwar",
+		"desc": "Art Solid Anarkali Suit",
+		"price": 5640
+	}, {
+		"id": 11,
+		"name": "womens-salwar",
+		"imageUrl": "images/wChuri.jpeg",
+		"title": "Women's Salwar",
+		"desc": "Art Solid Anarkali Suit",
+		"price": 3040
+	}, {
+		"id": 12,
+		"name": "kids-shirt",
+		"imageUrl": "images/kidsShirt.jpeg",
+		"title": "Kids Shirt",
+		"desc": "United Colors of Benetton Boy's Checkered Shirt",
+		"price": 898
+	}, {
+		"id": 13,
+		"name": "kids-jeans",
+		"imageUrl": "images/kidsJeans.jpeg",
+		"title": "Kids Jeans",
+		"desc": "Levi's Jeans",
+		"price": 1799
+	}, {
+		"id": 14,
+		"name": "baby-girl-dress",
+		"imageUrl": "images/kidsfrock.jpeg",
+		"title": "Baby Girl's Dress",
+		"desc": "Bonnie Jean Baby Girl's Dress",
+		"price": 2518
+	}, {
+		"id": 15,
+		"name": "baby-girl-dress",
+		"imageUrl": "images/girlfrock.jpeg",
+		"title": "Baby Girl's Dress",
+		"desc": "Bonnie Jean Girl's Layered Dress",
+		"price": 2218
+	}, {
+		"id": 16,
+		"name": "baby-boy-sweatshirt",
+		"imageUrl": "images/kidsred.jpeg",
+		"title": "Baby Boy Sweatshirt",
+		"desc": "FS Mini Klub Full Sleeve Printed Baby Boy's Baby Boy Sweatshirt",
+		"price": 500
+	} ],
+	"status": "OK"
+}

@@ -1,0 +1,46 @@
+{
+    "data": [ {
+        "id": 6,
+        "name": "womens-maxi-dress",
+        "imageUrl": "images/femella.jpeg",
+        "title": "Women's Maxi Dress",
+        "desc": "Femella Women's Maxi Dress",
+        "price": 1290
+    }, {
+        "id": 7,
+        "name": "womens-maxi-dress",
+        "imageUrl": "images/maxi.jpeg",
+        "title": "Women's Maxi Dress",
+        "desc": "Calvin Klein Women's Maxi Dress",
+        "price": 3000
+    }, {
+        "id": 8,
+        "name": "womens-saree",
+        "imageUrl": "images/sari.jpeg",
+        "title": "Women's Saree",
+        "desc": "Kalki Floral Print Embroidered Embellished...",
+        "price": 36260
+    }, {
+        "id": 9,
+        "name": "womens-saree",
+        "imageUrl": "images/wSari.jpeg",
+        "title": "Women's Saree",
+        "desc": "Samyakk Kanjivaram Floral Print Embellishe...",
+        "price": 38390
+    }, {
+        "id": 10,
+        "name": "womens-salwar",
+        "imageUrl": "images/wSalwar.jpeg",
+        "title": "Women's Salwar",
+        "desc": "Art Solid Anarkali Suit",
+        "price": 5640
+    }, {
+        "id": 11,
+        "name": "womens-salwar",
+        "imageUrl": "images/wChuri.jpeg",
+        "title": "Women's Salwar",
+        "desc": "Art Solid Anarkali Suit",
+        "price": 3040
+    } ],
+    "status": "OK"
+}
