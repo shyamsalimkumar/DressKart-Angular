@@ -1,0 +1,31 @@
+{
+  "name": "DressKart-Ember",
+  "version": "0.0.0",
+  "description": "EmberJS port of DressKart",
+  "main": "''",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shyamsalimkumar/DressKart-Ember.git"
+  },
+  "keywords": [
+    "ember",
+    "dressKart",
+    "ember-port",
+    "shopping"
+  ],
+  "author": "Shyam S Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shyamsalimkumar/DressKart-Ember/issues"
+  },
+  "homepage": "https://github.com/shyamsalimkumar/DressKart-Ember",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

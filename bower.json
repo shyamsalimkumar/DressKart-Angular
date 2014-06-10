@@ -1,0 +1,36 @@
+{
+  "name": "DressKart-Ember",
+  "version": "0.0.0",
+  "homepage": "https://github.com/shyamsalimkumar/DressKart-Ember",
+  "authors": [
+    "Shyam S Kumar <shyam.salim.kumar@outlook.com>"
+  ],
+  "description": "EmberJS port of DressKart",
+  "main": "js/app/main.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ember",
+    "dressKart",
+    "ember-port",
+    "shopping"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.5.1",
+    "ember-data": "~0.0.14",
+    "ember-localstorage-adapter": "~0.3.1"
+  },
+  "resolutions": {
+    "ember": "~1.5.1"
+  }
+}
