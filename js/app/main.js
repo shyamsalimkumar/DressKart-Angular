@@ -1,4 +1,4 @@
-( function ( Ember, window, document, undefined ) {
+( function ( Ember, DS, window, document, undefined ) {
     'use strict';
 
     ////////////////////
@@ -28,8 +28,8 @@
         price: DS.attr( 'number' ),
         quantity: DS.attr( 'number' ),
         cost: function () {
-          return this.get('quantity') * this.get('price');
-        }.property('@each.cost')
+            return this.get( 'quantity' ) * this.get( 'price' );
+        }.property( '@each.cost' )
     } );
 
     ////////////
@@ -189,4 +189,4 @@
         items: [],
         actions: {}
     } );
-} )( Ember, window, document );
+} )( Ember, DS, window, document );
