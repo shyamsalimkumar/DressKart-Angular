@@ -141,16 +141,16 @@
                             <button
                                 class="btn btn-success" type="button"
                                 {{bind-attr disabled="item.quantity >= 1000"}}
-                                {{action 'addItem' this}}>+</button>
+                                {{action 'addItem' item}}>+</button>
                             <button
                                 class="btn btn-inverse" type="button"
                                 {{bind-attr disabled="item.quantity <= 1"}}
-                                {{action 'removeItem' this}}>-</button>
+                                {{action 'removeItem' item}}>-</button>
                           </div>
                         </td>
                         <td class="tdRight">{{item.cost}} | currency</td>
                         <td class="tdCenter" title="remove from cart">
-                            <a href="" {{action 'removeFromCart' this}}>
+                            <a href="" {{action 'removeFromCart' item}}>
                                 <i class="icon-remove" />
                             </a>
                         </td>

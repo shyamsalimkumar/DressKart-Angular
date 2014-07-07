@@ -10,10 +10,10 @@
         LOG_VIEW_LOOKUPS: true
     } );
 
-    DressKart.ApplicationSerializer = DS.LSSerializer.extend();
+    // DressKart.ApplicationSerializer = DS.LSSerializer.extend();
 
     DressKart.Store = DS.Store.extend( {
-        adapter: DS.LSAdapter.create( {
+        adapter: DS.LSAdapter.extend( {
             namespace: 'shoppingcart'
         } )
     } );
@@ -101,6 +101,7 @@
                 }, function () {
                     console.error( 'An error occurred in this request' );
                 } );
+                // return this.store.createRecord(DressKart.Order);
         },
         setupController: function ( controller, model ) {
             controller.set( 'dress', model );
@@ -111,7 +112,6 @@
             return this.store.findAll( DressKart.Order );
         },
         setupController: function ( controller, model ) {
-            console.log( model );
             controller.set( 'items', model );
         }
     } );
@@ -186,7 +186,23 @@
         }
     } );
     DressKart.CartController = Ember.ArrayController.extend( {
-        items: [],
-        actions: {}
+        actions: {
+            addItem: function ( item ) {
+                var transaction = this.store.transaction();
+                var order = this.store.find( 'order', item.get( 'id' ) );
+                // transaction.add( order );
+
+                order.get( 'isDirty' );
+                order.incrementProperty( 'quantity' );
+
+                order.updateRecordArrays();
+                transaction.commit(); // user is saved, but it doesn't happen
+            },
+            removeItem: function ( item ) {
+                var order = this.store.find( 'order', item.get( 'id' ) );
+                order.set( 'quantity', order.get( 'quantity' ) - 1 );
+                order.save();
+            }
+        }
     } );
 } )( Ember, DS, window, document );
