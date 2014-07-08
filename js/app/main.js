@@ -177,8 +177,13 @@
                     price: dress.price,
                     quantity: dress.quantity || 1
                 } );
-                order.save();
-                this.send( 'showCart' );
+                var that = this;
+                order.save().then(function (response) {
+                    that.send('showCart');
+                }, function (error) {
+                    console.error(error);
+                });
+                // this.send( 'showCart' );
             },
             showCart: function () {
                 this.transitionToRoute( 'cart' );
